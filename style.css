@@ -1,0 +1,178 @@
+#page-body
+{
+	height:2000px;
+	width:1340px;
+}
+#side-1
+{
+	height:2000px;
+	width:100px;
+	background:orange;
+	float:left;
+	
+}
+#side-0
+{
+	height:2000px;
+	width:1140px;
+	background:white;
+	float:left;
+}
+#side-2
+{
+	height:2000px;
+	width:100px;
+	background:green;
+	float:left;
+}
+#top-1
+{
+	height:30px;
+	width:1128px;
+	border:5px solid yellow;
+	color:blue;
+	font-weight:bold;
+	padding-top:10px;
+	font-size:20px;
+	animation-name:text;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+@keyframes text
+{
+	from
+	{
+		color:blue;
+	}
+	to
+	{
+		color:red;
+	
+	}
+}
+#top-2
+{
+	height:600px;
+	width:1140px;
+	background:url(images/flag_design_1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#part-1
+{
+	height:300px;
+	width:900px;
+	float:left;
+	font-size:60px;
+	text-align:center;
+	padding-top:50px;
+	font-family:mv boli;
+	animation-name:glow;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	font-weight:bold;
+	animation-direction:alternate;
+	
+}
+@keyframes glow
+{
+	from
+	{
+		color:green;
+	}
+	to
+	{
+		color:maroon;
+	
+	}
+}
+#part-2
+{
+	height:300px;
+	width:100px;
+	float:left;
+	
+}
+#part-3
+{
+	height:300px;
+	width:100px;
+	float:left;
+	
+}
+#btn-1
+{
+	background:green;
+	color:white;
+	font-weight:bold;
+	height:20px;
+	width:60px;
+	font-size:20px;
+	border-radius:20px;
+	padding:15px;
+	margin-top:380px;
+	animation-name:btn-1;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+}
+#btn-1:hover
+{
+	background:#82a525;
+	animation-play-state:paused;
+}
+#part-2 a
+{
+	text-decoration:none;
+	color:white; 
+}
+#part-3 a
+{
+	text-decoration:none;
+	color:white; 
+}
+#btn-2
+{
+	background:orange;
+	color:white;
+	font-weight:bold;
+	height:20px;
+	width:60px;
+	font-size:20px;
+	border-radius:20px;
+	padding:15px;
+	margin-top:500px;
+	animation-name:btn-2;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+#btn-2:hover
+{
+	background:#2c3015;
+	animation-play-state:paused;
+}
+@keyframes btn-1
+{
+	from
+	{
+		background:green;
+	}
+	to
+	{
+		background:orange;
+	}
+}@keyframes btn-2
+{
+	from
+	{
+		background:orange;
+	}
+	to
+	{
+		background:green;
+	}
+}

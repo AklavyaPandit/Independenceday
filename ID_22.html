@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>ID-2022</title>
+<link href="images/favicon.jpg" rel="icon"/>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<script src="js/bootstrap.js"></script>
+<style>
+.outer
+{
+ min-height:2000px;
+}
+.h-1
+{
+ height:50px;
+}
+.h-2
+{
+ height:600px;
+ padding-top:100px;
+
+}
+.h-4
+{
+ height:300px;
+ font-size:20px;
+ 
+}
+.size
+{
+ font-size:20px;
+}
+#menu ul li a 
+{
+ color:black;
+}
+#menu ul li a:hover 
+{
+ color:white;
+ font-weight:bold;
+ transform:all ease 5s;
+}
+</style>
+<div class="container-fluid outer">
+<!--start menu-->
+<div class="row">
+<div class="col-sm-12">
+<nav class="navbar navbar-dark bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> इस स्वतंत्र दिवस पर भारत के अनोखे <b class="text-success">जय हिन्द</b> अभियान से जुड़ने के लिए  </a><div class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal">जुड़ें</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><b>मेरा <b class="text-success">भारत</b> महान </b></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+	  <form class="d-flex" role="search">
+          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      <div class="offcanvas-body" id="menu">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"  >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">होम</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">देश के बारे में दो शब्द</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">लॉग इन </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">स्वतंत्रता दिवस </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">अपनी माटी  से  </a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#">सुझाव दें  </a>
+          </li>
+		  </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">संपर्क करें   </a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</nav>
+</div>
+</div>
+<div class="row"><div class="col-sm-12 h-2 bg-success text-white">
+<p class="size mt-2">आपका देश के प्रति क्या दायित्व है <b class="text-warning">कृपया दो शब्दों में  जरूर लिखें </b><b> जय हिन्द</b> अभियान के साथ </p>
+<textarea class="form-control h-4 mt-4" placeholder="कृपया यहाँ से लिखना प्रारंभ करें ..............."></textarea>
+<br><br>
+<p><b class="text-warning">ध्यान दें !</b>  जिस देश में आप रह रहें हैं , उस देश के प्रति जो आपकी जिम्मेदारी है  कृपया उसे पूरी   ईमानदारी से  अवश्य निभाएं </br>भारत उन महाभूतियों की भूमि है जिन्होनें पूरे विश्व को जीने की कला सिखाया | <br/>जैसे- स्वामी विवेकनन्द , महर्षि कन्नड़ , स्वामी दयानन्द सरस्वती , आदि .............</p>
+</div></div>
+</div>
+<!--end menu-->
+<!--start first modal -->
+<!-- Modal -->
+<div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">कृपया अपना सही विवरण भरें !</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control mb-2" placeholder="अपना नाम लिखें"/>
+        <input type="text" class="form-control mb-2" placeholder="पिता का नाम "/>
+        <input type="number" class="form-control mb-2" placeholder="मोबाइल नम्बर "/>
+        <input type="email" class="form-control mb-2" placeholder="इमेल पता  "/>
+        <input type="text" class="form-control mb-2" placeholder="ग्राम व पोस्ट "/>
+        <input type="text" class="form-control mb-2" placeholder="जिला "/>
+        <input type="text" class="form-control mb-2" placeholder="राज्य  "/>
+        अपनी तस्वीर लगायें <input type="file" class="form-control mb-2" placeholder="राज्य  "/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">पीछे जाएँ  </button>
+        <button type="button" class="btn btn-warning">रजिस्टर करें </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end first modal -->
+</body>
+</html>
